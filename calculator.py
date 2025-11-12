@@ -11,15 +11,6 @@ One function per operation, in order.
 # First example
 import math
 
-def square_root(a):
-
-    if a < 0:
-        raise ValueError("square_root() domain error: a must be non-negative")
-    return math.sqrt(a)
-
-def hypotenuse(a, b):
-    return math.hypot(a,b)
-
 def add(a, b): 
     return a + b
 
