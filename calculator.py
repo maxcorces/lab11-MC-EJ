@@ -30,9 +30,9 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-    if a == 0:
-        raise ZeroDivisionError("division by zero: denominator 'a' is 0")
-    return b / a
+    if b == 0:
+        raise ZeroDivisionError("division by zero")
+    return a / a
 
 def logarithm(a, b):
     if a <= 0 or a == 1:
